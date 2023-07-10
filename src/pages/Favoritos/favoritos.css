@@ -1,0 +1,70 @@
+.meus-filmes {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meus-filmes h1 {
+  margin-bottom: 14px;
+  color: whitesmoke;
+}
+
+.meus-filmes span {
+  font-size: 18px;
+}
+
+.meus-filmes ul {
+  width: 720px;
+}
+
+.meus-filmes ul span {
+  color: whitesmoke;
+}
+
+.meus-filmes ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.meus-filmes div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meus-filmes div a {
+  text-decoration: none;
+  color: rgba(230, 230, 47);
+  margin-right: 14px;
+  transition: 0.3s;
+}
+
+.meus-filmes div a:hover {
+  color: rgba(255, 255, 47);
+  cursor: pointer;
+  box-shadow: 0px 0px 2px rgba(245, 245, 245, 0.534);
+}
+
+.meus-filmes ul div button {
+  border: 1px solid red;
+  background-color: transparent;
+  color: red;
+  box-sizing: border-box;
+  padding: 2px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.meus-filmes ul div button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: whitesmoke;
+}
+
+.naosalvo {
+  color: whitesmoke;
+}
